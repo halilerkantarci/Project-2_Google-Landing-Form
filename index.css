@@ -19,14 +19,12 @@ header.header {
 .header__right {
   float: right;
 }
-header ul li {
+ul li {
   display: inline-block;
 }
-header ul li a {
+ul li a {
   color: #919090;
   padding: 0.5rem;
-
-  font-size: 20px;
 }
 .header__right--appicon {
   vertical-align: middle;
@@ -45,7 +43,7 @@ header ul li a {
   box-shadow: rgb(211, 211, 211) 3px 3px 5px;
   cursor: pointer;
 }
-header ul li a:hover {
+ul li a:hover {
   text-decoration: underline;
 }
 .header__right--appicon:hover {
@@ -86,8 +84,7 @@ header ul li a:hover {
   height: 22px;
   vertical-align: middle;
 }
-.main__buttons {
-}
+
 .main__buttons--left,
 .main__buttons--right {
   width: 146px;
@@ -106,4 +103,31 @@ header ul li a:hover {
 }
 .main__language a {
   text-decoration: underline;
+}
+
+/*! FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.footer__country {
+  font-size: 14px;
+  /* margin: auto 5px; */
+  padding-left: 20px;
+  padding-bottom: 5px;
+  /* padding-top: 5px; */
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  color: #919090;
+}
+.footer__bottom--left {
+  float: left;
+}
+.footer__bottom--right {
+  float: right;
+}
+.footer__bottom ul {
+  padding: 20px;
 }
